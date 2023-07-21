@@ -1,0 +1,5 @@
+- working on serialization & unserialization on StateService class and write its tests
+- make or implement cookie interface to use in this system
+- add the url field to state class 4
+- test the captcha class code and make factory for it for passing the configurations
+- makefunction to reset the predefined names for getAttribute in captcha

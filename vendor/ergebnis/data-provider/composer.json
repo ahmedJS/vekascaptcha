@@ -1,0 +1,59 @@
+{
+  "name": "ergebnis/data-provider",
+  "description": "Provides generic data providers for use with phpunit/phpunit.",
+  "license": "MIT",
+  "type": "library",
+  "keywords": [
+    "phpunit",
+    "data-provider"
+  ],
+  "authors": [
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
+    }
+  ],
+  "homepage": "https://github.com/ergebnis/data-provider",
+  "support": {
+    "issues": "https://github.com/ergebnis/data-provider/issues",
+    "source": "https://github.com/ergebnis/data-provider"
+  },
+  "require": {
+    "php": "^8.0",
+    "fakerphp/faker": "^1.20.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.28.3",
+    "ergebnis/license": "^2.1.0",
+    "ergebnis/php-cs-fixer-config": "^5.0.0",
+    "phpunit/phpunit": "^9.5.26",
+    "psalm/plugin-phpunit": "~0.18.3",
+    "vimeo/psalm": "^4.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ergebnis\\DataProvider\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ergebnis\\DataProvider\\Test\\": "test/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "ergebnis/composer-normalize": true
+    },
+    "platform": {
+      "php": "8.0.25"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "composer-normalize": {
+      "indent-size": 2,
+      "indent-style": "space"
+    }
+  }
+}
